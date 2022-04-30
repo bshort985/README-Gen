@@ -1,0 +1,19 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "Create a professonal README file using consel prompts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bshort985/README-Gen.git"
+  },
+  "author": "Brian Short",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bshort985/README-Gen/issues"
+  },
+  "homepage": "https://github.com/bshort985/README-Gen#readme"
+}
