@@ -1,29 +1,50 @@
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+ # README Generator
 
-GIVEN a command-line application that accepts user input
+  ## License: Unlicense  ### https://img.shields.io/badge/license-Unlicense-lightgrey
+  ### https://choosealicense.com/licenses/unlicense/
 
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+  ## Description 
+  ### Application that prompts the user to follow a professonial README document
 
-WHEN I enter my project title
-THEN this is displayed as the title of the README
+  ## Motivation 
+  ### As new develper I want to be able to make a solid README for future projects.
 
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+  ## Problem
+  ### Not knowing what to include in a good README doc.
 
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+  ## Lessons Learned
+  ### Creating the writetoFile function and understainding how to create a file using node.js
 
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+  ## Table of Contents:
+  ###  * [Installation](#installation)
+  ###  * [Usage](#usage)
+  ###  * [License](#license)
+  ###  * [Contributors](#contributors)
+  ###  * [Tests](#tests)
+  ###  * [Questions](#questions)
 
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+  ## Installation
 
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+  ### Pull from the repo and install NPM
+
+  ## Usage
+
+  ### After everything is installed start the app by typing node index.js and folloew the prompts
+
+  ### Read the license here (Link)
+
+  ## Contributors
+
+  ### none
+
+  ## Tests
+
+  ### none
+
+  ## Questions
+
+  ### Github Repo https://github.com/bshort985/README-Gen
+  ### If you have any question please don't hesitate to reach out via email. My email is bshort985@gmail,com
 
 
 video link: https://drive.google.com/file/d/1OQPMbiFlTurCg2ZDYXvpcmzQMlNbGGsw/view
