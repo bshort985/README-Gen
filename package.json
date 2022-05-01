@@ -1,7 +1,7 @@
 {
   "name": "readme-gen",
   "version": "1.0.0",
-  "description": "Create a professonal README file using consel prompts",
+  "description": "Create a professional README document using console prompts.  ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
