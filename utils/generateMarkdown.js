@@ -19,8 +19,7 @@ function renderLicenseBadge(license) {
   }else if (license === "None"){
     badge = ""
   }
-  console.log("badge is " + badge);
-  console.log("license is " + license);
+  
   return badge;
 };
 
@@ -76,7 +75,7 @@ function generateMarkdown(answer) {
   ## Problem
   ### ${answer.problem}
 
-  ##Lessons Learned
+  ## Lessons Learned
   ### ${answer.lesson}
 
   ## Table of Contents:
