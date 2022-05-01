@@ -16,6 +16,8 @@ function renderLicenseBadge(license) {
     badge = "https://img.shields.io/badge/license-GNUAGPLv3-orange"
   }else if (license === "Unlicense"){
     badge = "https://img.shields.io/badge/license-Unlicense-lightgrey"
+  }else if (license === "None"){
+    badge = ""
   }
   console.log("badge is " + badge);
   console.log("license is " + license);
@@ -34,6 +36,8 @@ function renderLicenseLink(license) {
     licenseLink = "https://choosealicense.com/licenses/agpl-3.0/"
   } else if (license === "Unlicense") {
     licenseLink = "https://choosealicense.com/licenses/unlicense/"
+  }else if (license === "None") {
+    licenseLink = ""
   }
   return licenseLink;
 };
@@ -42,7 +46,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  let licenseSection = ''
+  let licenseSection = "";
   if(license === 'None') {
     licenseSection = ''
   } else {
