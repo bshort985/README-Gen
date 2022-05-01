@@ -54,8 +54,26 @@ function generateMarkdown(answer) {
 
           ### ${answer.usage}
 
+          ## License
 
-      
+          ### ${answer.license}
+
+          ### Read the license here (Link)
+
+          ## Contributors
+
+          ### ${answer.contributers}
+
+          ## Tests
+
+          ### ${answer.test}
+
+          ## Questions
+
+          ### Github Repo ${answer.github}
+          ### If you have any question please don't hesitate to reach out via email. My email is ${answer.emal}
+
+          
 
 `;
 console.log(generateMarkdown)

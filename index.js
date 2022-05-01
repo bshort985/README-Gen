@@ -82,7 +82,37 @@ const questions = [
         message: 'Where there any other contributers on this project?',
         default: false
       },
-    
+      {
+        type: 'input',
+        name: 'test',
+        message: 'How does a user test this application?'
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your eamil for potential users to contact you with any questions. (Required)',
+        validate: nameInput => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log('Please provide your eamil.');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your Github Repo. (Required)',
+        validate: nameInput => {
+          if (nameInput) {
+            return true;
+          } else {
+            console.log('Please provide the Github repo');
+            return false;
+          }
+        }
+      },
    ];
 
 
@@ -103,6 +133,7 @@ const writeToFile = content => {
       });
   });
 };
+
 
 
 
